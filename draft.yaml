@@ -1,0 +1,11 @@
+models:
+  Ui:
+    title: string:400
+    description: string:400
+    softdeletes
+  
+controllers:
+  Ui:
+    resource
+
+seeders: Ui

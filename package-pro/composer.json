@@ -1,0 +1,30 @@
+{
+    "name": "ghayas/hello-world-package",
+    "description": "A Laravel package that provides a Hello World view component",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ghayas",
+            "email": "ghayas.mohd@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ghayas\\HelloWorldPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ghayas\\HelloWorldPackage\\HelloWorldPackageServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+} 

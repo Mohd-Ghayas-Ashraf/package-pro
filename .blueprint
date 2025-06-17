@@ -1,0 +1,18 @@
+created:
+    - app/Http/Controllers/UiController.php
+    - database/factories/UiFactory.php
+    - database/migrations/2025_06_17_032832_create_uis_table.php
+    - app/Models/Ui.php
+    - database/seeders/UiSeeder.php
+    - tests/Feature/Http/Controllers/UiControllerTest.php
+    - app/Http/Requests/UiStoreRequest.php
+    - app/Http/Requests/UiUpdateRequest.php
+    - resources/views/ui/index.blade.php
+    - resources/views/ui/create.blade.php
+    - resources/views/ui/show.blade.php
+    - resources/views/ui/edit.blade.php
+updated:
+    - routes/web.php
+models:
+    User: { name: string, email: string, email_verified_at: 'timestamp nullable default:NULL', password: string, remember_token: 'string:100 nullable default:NULL' }
+    Ui: { title: 'string:400', description: 'string:400', softdeletes: softdeletes }
